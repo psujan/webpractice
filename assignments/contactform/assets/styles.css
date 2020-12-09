@@ -1,0 +1,70 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.wrapper{
+	width:auto;
+	margin:auto;
+	height:auto;
+	position:relative;
+}
+
+.contactform{ 
+	width:50%;
+	padding:10px;
+	border:1px solid #BDC3C7;
+	position:relative;
+	margin:auto;
+}
+
+.heading{
+	margin:0 auto;
+	display: flex;
+  	justify-content: center;
+}
+
+
+.form-group{
+	display:block;
+	margin:10px 0px 10px 0px;
+	padding:5px;
+}
+
+.form-input{
+	border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+	width:100%;
+	line-height: 30px;
+	border-bottom:1px solid #9E9E9E;
+}
+
+.form-group textarea{
+	width:100%;
+    resize:vertical; 
+    min-height:100px;
+    
+}
+textarea:focus,input:focus {
+    outline: none;
+}
+
+.form-group button{
+	border-radius:4px;
+	font-size: 20px;
+	padding:15px 32px;
+	cursor:pointer;
+}
+
+.submitbtn{
+	border:1px solid #4caf50;
+	background-color:#4caf50;
+	
+}
+
+.resetbtn{
+	border:1px solid #ff5722;
+	background-color:#ff5722;
+	
+}
